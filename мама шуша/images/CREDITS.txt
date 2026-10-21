@@ -1,0 +1,13 @@
+Temporary stock photos (Unsplash licence) - replace with the restaurant's own photos.
+Keep the same file names and proportions and nothing else has to change.
+
+hero-1.jpg  1840x940  photo-1579751626657-72bc17010498
+hero-2.jpg  1840x940  photo-1574071318508-1cdbab80d002
+hero-3.jpg  1840x940  photo-1542834369-f10ebf06d3e0
+dish-1.jpg  1300x860  photo-1593560708920-61dd98c46a4e
+dish-2.jpg  1300x860  photo-1585238342024-78d387f4a707
+dish-3.jpg  1300x860  photo-1565299624946-b28f40a0ae38
+ofer.jpg    1300x860  photo-1577219491135-ce391730fb2c  (NOT Ofer - stand-in chef photo)
+rate-1.jpg  1000x700  photo-1601924582970-9238bcb495d9
+rate-2.jpg  1000x700  photo-1588315029754-2dd089d39a1a
+rate-3.jpg  1000x700  photo-1600628421055-4d30de868b8f

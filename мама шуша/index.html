@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>מאמא שושה | כשפיצה טובה, הכול לטובה</title>
+  <meta name="description" content="מאמא שושה - כשפיצה טובה, הכול לטובה. תפריט, שעות פתיחה, כתובת, משלוחים והזמנת שולחן.">
+  <meta name="theme-color" content="#FFDE59">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preload" href="fonts/erez/FUP-Erez-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/shikma/FUP-Shikma-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/caesarea/FUP-Caesarea-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.remove('no-js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
+
+  <!-- Icon sprite (stroke icons, 24x24) -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-cutlery" viewBox="0 0 24 24"><path d="M19 3v12h-5c-.023-3.681.184-7.406 5-12zm0 12v6h-1v-3M8 4v17M5 4v3a3 3 0 1 0 6 0V4"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M5 17a2 2 0 1 0 4 0 2 2 0 1 0-4 0M15 17a2 2 0 1 0 4 0 2 2 0 1 0-4 0M5 17H3V6a1 1 0 0 1 1-1h9v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 17.75-6.172 3.245 1.179-6.873-5-4.867 6.9-1L12 2l3.086 6.253 6.9 1-5 4.867 1.179 6.873z"/></symbol>
+    <symbol id="i-cloche" viewBox="0 0 24 24"><path d="M3 15h18M5 15a7 7 0 0 1 14 0M12 8V5.5M10.5 5.5h3M4 19h16"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="m3 21 1.65-3.8a9 9 0 1 1 3.4 2.9L3 21M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><path d="M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM9 12a3 3 0 1 0 6 0 3 3 0 0 0-6 0M16.5 7.5v.01"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M7 10v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3V3h-3a5 5 0 0 0-5 5v2z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M9 11a3 3 0 1 0 6 0 3 3 0 0 0-6 0M17.657 16.657 13.414 20.9a2 2 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0M12 7v5l3 3"/></symbol>
+    <symbol id="i-zoom" viewBox="0 0 24 24"><path d="M3 10a7 7 0 1 0 14 0 7 7 0 1 0-14 0M7 10h6M10 7v6M21 21l-6-6"/></symbol>
+    <symbol id="i-zoom-out" viewBox="0 0 24 24"><path d="M3 10a7 7 0 1 0 14 0 7 7 0 1 0-14 0M7 10h6M21 21l-6-6"/></symbol>
+  </svg>
+
+  <!-- ===== Updates banner ===== -->
+  <!-- PLACEHOLDER COPY: replace the banner text with the real update -->
+  <div class="banner" id="update-banner" role="region" aria-label="עדכונים">
+    <p class="banner-text"><span class="banner-pulse" aria-hidden="true"></span><span data-placeholder>שורה זו תהיה "באנר עדכונים בזמן אמת". טקסט זה הינו תותבת.</span></p>
+    <button class="banner-close" type="button" aria-label="סגירת הבאנר" data-banner-close>
+      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
+  </div>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <button class="burger" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="פתיחת תפריט הניווט" data-burger>
+        <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="icon icon-shut" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="ניווט ראשי">
+        <a href="#visit">בואו אלינו</a>
+        <a href="#menu">תפריט</a>
+        <a href="#about">קצת עלינו</a>
+        <a href="#rating">דרגו אותנו</a>
+      </nav>
+      <span class="header-logo wordmark">מאמא שושה</span>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== 1 · Welcome ===== -->
+    <section id="welcome" class="section hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <div class="hero-stage">
+          <div class="hero-lockup">
+            <h1 class="hero-logo wordmark" id="hero-title">מאמא שושה</h1>
+            <p class="hero-slogan">כשפיצה טובה, הכול לטובה</p>
+          </div>
+          <!-- TEMPORARY STOCK PHOTOS: images/hero-1..3.jpg (1840x940) -->
+          <div class="slider hero-slider" data-slider data-autoplay="5500" data-dots="#hero-dots" role="group" aria-roledescription="מצגת תמונות" aria-label="תמונות מהמסעדה">
+            <img class="slide is-active" src="images/hero-1.jpg" width="1840" height="940" alt="פיצה נאפית בתנור אבן מול אש גלויה" fetchpriority="high">
+            <img class="slide" src="images/hero-2.jpg" width="1840" height="940" alt="פיצה עגולה עם עלי בזיליקום על שולחן כהה" loading="lazy">
+            <img class="slide" src="images/hero-3.jpg" width="1840" height="940" alt="משולש פיצה נשלף עם גבינה נמתחת" loading="lazy">
+          </div>
+        </div>
+        <div class="dots" id="hero-dots"></div>
+        <div class="hero-actions">
+          <a class="btn btn--line" href="#menu">
+            <svg class="icon" aria-hidden="true"><use href="#i-cutlery"/></svg><span>תפריט</span>
+          </a>
+          <a class="btn" href="#visit" data-link="booking">
+            <svg class="icon" aria-hidden="true"><use href="#i-cloche"/></svg><span>הזמינו לשולחן במסעדה</span>
+          </a>
+          <a class="btn" href="#visit" data-link="delivery">
+            <svg class="icon" aria-hidden="true"><use href="#i-truck"/></svg><span>הזמינו משלוח</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2 · Visit ===== -->
+    <section id="visit" class="section visit" aria-labelledby="visit-title">
+      <div class="wrap">
+        <h2 class="section-title section-title--center" id="visit-title"><span>בואו אלינו</span></h2>
+
+        <div class="visit-grid">
+          <div class="visit-info">
+            <!-- UNCONFIRMED: hours and address come from the concept's "approximate" demo slide -->
+            <div class="hours">
+              <h3 class="visually-hidden">שעות פתיחה</h3>
+              <p class="hours-days">כל יום, חוץ מראשון</p>
+              <p class="hours-big"><span dir="ltr">8:00-21:00</span></p>
+              <ul class="hours-list">
+                <li><span>תפריט בוקר</span><span class="sep" aria-hidden="true"></span><span dir="ltr">8:00-12:00</span></li>
+                <li><span>תפריט צוהריים</span><span class="sep" aria-hidden="true"></span><span dir="ltr">12:00-17:00</span></li>
+                <li><span>תפריט ערב</span><span class="sep" aria-hidden="true"></span><span dir="ltr">17:00-21:00</span></li>
+              </ul>
+            </div>
+            <div class="address">
+              <h3 class="info-heading"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>כתובת</h3>
+              <address>תל-אביב-יפו, רח' רודנסקי 5</address>
+            </div>
+          </div>
+          <div class="map">
+            <iframe title="מפת הגעה למאמא שושה" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=%D7%A8%D7%95%D7%93%D7%A0%D7%A1%D7%A7%D7%99%205%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91-%D7%99%D7%A4%D7%95&hl=he&z=16&output=embed"></iframe>
+          </div>
+        </div>
+
+        <div class="visit-actions">
+          <a class="btn" href="#visit" data-link="delivery">
+            <svg class="icon" aria-hidden="true"><use href="#i-truck"/></svg><span>הזמינו משלוח</span>
+          </a>
+          <a class="btn" href="#visit" data-link="booking">
+            <svg class="icon" aria-hidden="true"><use href="#i-cloche"/></svg><span>הזמינו לשולחן במסעדה</span>
+          </a>
+          <a class="btn btn--line" href="#visit" data-link="whatsapp">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg><span>צרו איתנו קשר בוואטסאפ</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3 · Menu ===== -->
+    <section id="menu" class="section menu" aria-labelledby="menu-title">
+      <div class="wrap">
+        <h2 class="visually-hidden" id="menu-title">תפריט</h2>
+        <!-- TEMPORARY MENU IMAGE: images/menu.png (2380x1684) = pizzeria_menu_v2.pdf, page 1 on the right.
+             When it is replaced, update the text version in #menu-viewer as well. -->
+        <button class="menu-open" type="button" data-viewer-open>
+          <img class="menu-image" src="images/menu.png" width="2380" height="1684" alt="" loading="lazy">
+          <span class="menu-hint"><svg class="icon" aria-hidden="true"><use href="#i-zoom"/></svg><span>לצפייה מלאה, פתחו את התפריט</span></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ===== 4 · About ===== -->
+    <section id="about" class="section about" aria-labelledby="about-title">
+      <div class="wrap">
+        <h2 class="section-title" id="about-title"><span>קצת עלינו</span></h2>
+
+        <div class="story">
+          <div class="story-media">
+            <!-- TEMPORARY STOCK PHOTOS: images/dish-1..3.jpg (1300x860) -->
+            <div class="slider" data-slider data-autoplay="4800" role="group" aria-roledescription="מצגת תמונות" aria-label="תמונות של מנות">
+              <img class="slide is-active" src="images/dish-1.jpg" width="1300" height="860" alt="פיצה לבנה עם עלים ירוקים וגבינה" loading="lazy">
+              <img class="slide" src="images/dish-2.jpg" width="1300" height="860" alt="פיצה פרוסה עם עגבניות שרי ובזיליקום" loading="lazy">
+              <img class="slide" src="images/dish-3.jpg" width="1300" height="860" alt="פיצה פרוסה על קרש עץ" loading="lazy">
+            </div>
+          </div>
+          <div class="story-copy">
+            <!-- PLACEHOLDER COPY: text about the restaurant -->
+            <p data-placeholder>פסקה זו תהיה פסקת "קצת עלינו". טקסט זה הינו תותבת ואינו נושא משמעות. נחליף אותו בעת שיסופק התוכן.</p>
+          </div>
+        </div>
+
+        <div class="story story--flip">
+          <figure class="story-media">
+            <!-- TEMPORARY STOCK PHOTO (not Ofer): images/ofer.jpg (1300x860) -->
+            <img class="story-photo" src="images/ofer.jpg" width="1300" height="860" alt="שף בפעולה במטבח המסעדה" loading="lazy">
+          </figure>
+          <div class="story-copy">
+            <!-- PLACEHOLDER COPY: text about Ofer -->
+            <p data-placeholder>פסקה זו תהיה פסקת "על עופר". טקסט זה הינו תותבת ואינו נושא משמעות. נחליף אותו בעת שיסופק התוכן.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5 · Rate us ===== -->
+    <section id="rating" class="section rating" aria-labelledby="rating-title">
+      <div class="wrap">
+        <!-- Shown on phones only (mobile wireframe). TEMPORARY STOCK PHOTOS: images/rate-1..3.jpg (1000x700) -->
+        <div class="rating-media">
+          <div class="slider" data-slider data-autoplay="5200" data-dots="#rate-dots" role="group" aria-roledescription="מצגת תמונות" aria-label="תמונות מהמסעדה">
+            <img class="slide is-active" src="images/rate-1.jpg" width="1000" height="700" alt="משולשי פיצה בקופסת קרטון" loading="lazy">
+            <img class="slide" src="images/rate-2.jpg" width="1000" height="700" alt="משולש פיצה מורם מהמגש" loading="lazy">
+            <img class="slide" src="images/rate-3.jpg" width="1000" height="700" alt="ידיים חולקות פיצה סביב שולחן" loading="lazy">
+          </div>
+          <div class="dots" id="rate-dots"></div>
+        </div>
+
+        <div class="rating-body">
+          <svg class="rating-star" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-star"/></svg>
+          <h2 class="rating-title" id="rating-title">דרגו אותנו</h2>
+          <a class="btn btn--ink review-button" href="#rating" data-link="review">
+            <svg class="icon" aria-hidden="true"><use href="#i-star"/></svg><span>השאירו ביקורת בגוגל מפות</span>
+          </a>
+          <p class="follow">עקבו אחרינו</p>
+          <div class="social-actions">
+            <a class="btn btn--line" href="#rating" data-link="instagram">
+              <svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg><span>אינסטגרם</span>
+            </a>
+            <a class="btn btn--line" href="#rating" data-link="facebook">
+              <svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg><span>פייסבוק</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 6 · Footer ===== -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <p class="footer-title"><span class="wordmark">מאמא שושה</span> <span class="footer-bar" aria-hidden="true">|</span> <span class="footer-slogan">כשפיצה טובה, הכול לטובה</span></p>
+      <nav class="footer-list" aria-label="ניווט תחתון">
+        <a class="footer-lead" href="#visit">בואו אלינו</a>
+        <a href="#menu">תפריט</a>
+        <a href="#about">קצת עלינו</a>
+        <a href="#rating">דרגו אותנו</a>
+      </nav>
+      <nav class="footer-list" aria-label="מידע משפטי">
+        <strong class="footer-lead">מידע משפטי</strong>
+        <a href="privacy.html">מדיניות פרטיות</a>
+        <a href="accessibility.html">הצהרת נגישות</a>
+        <a href="terms.html">תנאי שימוש</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ===== Menu viewer (opened from the menu block) ===== -->
+  <dialog class="viewer" id="menu-viewer" aria-labelledby="menu-viewer-title">
+    <div class="viewer-bar">
+      <h2 class="viewer-title" id="menu-viewer-title">תפריט</h2>
+      <!-- pinch (touch), Ctrl/trackpad pinch + wheel or a click (mouse); these two buttons are the keyboard way -->
+      <button class="btn btn--line viewer-icon" type="button" aria-label="הגדלה" data-viewer-zoom="in">
+        <svg class="icon" aria-hidden="true"><use href="#i-zoom"/></svg>
+      </button>
+      <button class="btn btn--line viewer-icon" type="button" aria-label="הקטנה" data-viewer-zoom="out">
+        <svg class="icon" aria-hidden="true"><use href="#i-zoom-out"/></svg>
+      </button>
+      <button class="btn btn--line viewer-icon viewer-close" type="button" aria-label="סגירת התפריט" data-viewer-close>
+        <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+    <div class="viewer-stage" role="region" aria-label="תצוגת התפריט" tabindex="0" data-viewer-stage>
+      <!-- the two pages of images/menu.png, shown as separate sheets (page 1 = right half, page 2 = left half) -->
+      <div class="viewer-pages" data-viewer-pages>
+        <img class="viewer-img viewer-img--1" src="images/menu.png" width="1190" height="1684" alt="תפריט המסעדה, עמוד 1: בוקר, צהריים וערב. כל המנות והמחירים מופיעים גם בגרסת הטקסט שמתחת לתמונות." loading="lazy">
+        <img class="viewer-img viewer-img--2" src="images/menu.png" width="1190" height="1684" alt="תפריט המסעדה, עמוד 2: תפריט אסיה. כל המנות והמחירים מופיעים גם בגרסת הטקסט שמתחת לתמונות." loading="lazy">
+      </div>
+      <!-- PLACEHOLDER COPY: text version of images/menu.png, keep it identical to the image -->
+      <details class="viewer-text">
+        <summary class="btn btn--line"><span>התפריט בגרסת טקסט</span><svg class="icon viewer-text-chevron" aria-hidden="true"><use href="#i-chevron"/></svg></summary>
+        <div class="viewer-text-body" data-placeholder>
+          <h3 class="viewer-text-heading"><span>בוקר</span> <span class="sep" aria-hidden="true"></span> <span class="hours-range" dir="ltr">08:00–12:00</span></h3>
+          <ul class="dishes">
+            <li class="dish-top"><span class="dish-name">מנה 1</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪32</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 2</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪38</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 3</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪42</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 4</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪46</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 5</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪52</span></li>
+          </ul>
+          <h3 class="viewer-text-heading"><span>צהריים</span> <span class="sep" aria-hidden="true"></span> <span class="hours-range" dir="ltr">12:00–17:00</span></h3>
+          <ul class="dishes">
+            <li class="dish-top"><span class="dish-name">מנה 1</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪48</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 2</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪54</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 3</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪58</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 4</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪62</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 5</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪68</span></li>
+          </ul>
+          <h3 class="viewer-text-heading"><span>ערב</span> <span class="sep" aria-hidden="true"></span> <span class="hours-range" dir="ltr">17:00–22:00</span></h3>
+          <ul class="dishes">
+            <li class="dish-top"><span class="dish-name">מנה 1</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪56</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 2</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪64</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 3</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪72</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 4</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪78</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 5</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪86</span></li>
+          </ul>
+          <h3 class="viewer-text-heading"><span>תפריט אסיה</span> <span class="sep" aria-hidden="true"></span> <span class="hours-range">כל היום</span></h3>
+          <ul class="dishes">
+            <li class="dish-top"><span class="dish-name">מנה 1</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪44</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 2</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪52</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 3</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪58</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 4</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪64</span></li>
+            <li class="dish-top"><span class="dish-name">מנה 5</span> <span class="dish-rule" aria-hidden="true"></span> <span class="dish-price" dir="ltr">₪72</span></li>
+          </ul>
+          <p class="viewer-text-note">הדמיית מבנה בלבד · המחירים והמנות לדוגמה</p>
+        </div>
+      </details>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
